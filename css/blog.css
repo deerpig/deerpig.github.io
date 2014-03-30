@@ -1,0 +1,32 @@
+/* blog.css  */
+/* Body and Content for Blogs*/
+
+
+
+/**
+ * =Body
+ ***************************/
+body {
+  font: normal 16px Georgia;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/blog.png);
+  background-repeat: no-repeat;
+  background-position: 572px 0px; /* 572*/
+  /* padding-top: 20px; */
+  color: #4c4c4c;
+  background-color: #F3F3F3;
+  text-align: center;
+}
+
+#content {
+  width: 542px;
+  float: right;
+  background: url(../images/blog.png);
+  background-repeat: no-repeat;
+  background-position: 454px 0px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0px 10px 1px 0px;
+}

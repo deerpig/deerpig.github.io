@@ -1,0 +1,491 @@
+
+
+/* body { */
+/*   font: normal 16px Georgia; */
+/*   margin: 0px; */
+/*   padding: 0px; */
+/*   background: url(../images/blog.png); */
+/*   background-repeat: no-repeat; */
+/*   background-position: 454px 0px; */
+/*   padding-top: 20px; */
+/*   color: #4c4c4c; */
+/*   background-color: #F3F3F3; */
+/*   text-align: center; */
+/* } */
+
+
+/**
+ * =Layout
+ ***************************/
+#box {
+  margin: auto;
+  margin-left: 100px;
+  /* background-color: #FEFEFE */
+  text-align: left;
+  width: 577px;
+}
+
+html>body #box {
+  max-width: 577px;
+  padding-right: 0px;
+  margin-bottom: 60px;
+}
+
+/* #content { */
+/*   width: 542px; */
+/*   float: right; */
+/*   background: url(../images/blog.png); */
+/*   background-repeat: no-repeat; */
+/*   background-position: 454px 0px; */
+/*   padding-top: 20px; */
+/*   padding-bottom: 10px; */
+/*   padding-left: 10px; */
+/*   margin: 0px 10px 1px 0px; */
+/* } */
+
+
+html>body #content {
+  width: 542px;
+  background-color: #FEFEFE;   
+}
+
+#blog-img { 
+  margin-top: 25px;
+  margin-bottom: 20px;
+ }
+
+
+/* #menu { */
+/*   height: 35px; */
+/*   max-height: 35px; */
+/*   max-width: 577px; */
+/*   width: 577px; */
+/* } */
+
+
+/* @end */
+
+#sidebar {
+    float: right;
+    width: 244px;
+    background-color: #f0f0f0;
+  padding: 18px 18px 2px 18px;
+  margin-top: 18px;
+  color: #777;
+}
+
+html>body #sidebar {
+    width: 260px;
+    padding-top: 2px;
+}
+#footer {
+  clear: both;
+  /* background: url(../images/bottom.png); */
+  height: 21px;
+  min-height: 21px;
+}
+
+#footer_text {
+  padding-left: 25px;
+  padding-top: 6px;
+}
+
+#tags, #authors, #search_results {
+  display: none;
+}
+
+#footer {
+    font-size: 80%;
+    color: #666;
+    /* border-top: 4px solid #eee; */
+    text-align: center;
+    /* overflow: hidden; */
+  }
+
+#contact {
+   color: #666;
+   font-size: 100%;
+   text-align: center;
+   padding: 0 0 10px 0;
+    }
+
+/* #contact a { */
+/*         color: #8085C1; */
+/*       } */
+
+#footer #rss {
+      margin-top: 1.1em;
+      margin-right: -.2em;
+      float: right;
+    }
+
+#footer #rss img {
+        border: 0;
+      }
+
+/**
+ * =Search
+ ***************************/
+#search, #search_results {
+  padding-bottom: 6px;
+}
+input[id=q],
+#login input[type=text],
+#login input[type=password] {
+  font: normal 11px Arial, Verdana, Sans-serif;
+  padding: 2px;
+  width: 250px;
+  color: #48453c;
+}
+input[id=q] {
+    width: 170px;
+}
+#results {
+  display: inline;
+}
+#results ol li {
+  padding-bottom: 3px;
+}
+
+/**
+ * =Posts and comments
+ ***************************/
+.item_tags {
+    clear: both;
+    font-size: 11px;
+}
+
+.item_comments {
+  font-size: 11px;
+}
+table#comment_form {
+    margin-top: 10px;
+}
+table#comment_form td {
+    padding: 2px 2px 2px 0;
+}
+table#comment_form td.labels {
+    width: 130px;
+}
+#comments h4 { }
+#comments .comment_content {
+    margin-top: 16px;
+    width: auto;
+}
+#comments .approval_required {
+    color: #209d20;
+    font-size: 11px;
+    padding: 10px;
+  border: 1px solid #209d20;
+}
+#comments .comment {
+  width: 100%;
+  clear: both;
+}
+#comments .comment_author {
+  font-weight: bold;
+}
+#comments .comment_details {
+  margin-bottom: -10px;
+  font-size: 11px;
+  color: gray;
+}
+#comments .gravatar {
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 4px 6px 0 0;
+  border: 1px solid #777;
+  background: #fff url(../images/default_gravatar.gif) no-repeat top left;
+}
+#comments h3#post {
+  clear: both;
+  padding-top: 30px;
+}
+
+/**
+ * =Headers
+ ***************************/
+#masthead {
+  margin: 0px 0px 0px 0px;
+  height: 167px;
+  min-height: 167px;
+  width: 577px;
+  min-width: 577px;
+  background-color: #348fbc;
+  background: url(../images/top.png);
+}
+
+h1 {
+  font-size: 160%;
+  font-weight: normal;
+  color: #800000;
+  padding: 0;
+  margin: 0;
+}
+h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+  font-size: 150%;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  color: #800000;
+  font-weight: normal;
+}
+h3 {
+    font-size: 105%;
+    padding-bottom: 5px;
+}
+h4, .item_meta {
+    font-size: 105%;
+    /* color: #373737; */
+    font-weight: normal;
+}
+.item_meta {
+    padding-bottom: 40px;
+}
+
+/**
+ * =Links
+ ***************************/
+a {
+  color: #C00000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+h1 a, h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+h1 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+p { 
+    margin: 8px 15px 5px 15px;
+ }
+
+ul { 
+   margin: 5px 15px 10px 15px;
+
+ }
+
+
+/**
+ * =Misc
+ ***************************/
+br {
+  clear: both;
+}
+code {
+  font-family: Monaco, 'Courier New', Courier;
+  font-size: 100%;
+  color: #000;
+}
+
+blockquote { 
+  color: #4c4c4c;
+ }
+
+.image { 
+  border: 0px;
+ }
+
+
+.block { 
+  overflow: hidden; 
+  display: block;
+  padding: 0 35px 0 35px;
+  /* float: right; */
+  /* width: 300px; */
+ }
+
+.innerblock { 
+  background-color: #eee ; 
+  border: 1px solid rgb(204, 204, 204); 
+  padding: 8px;
+ }
+
+/** Bottom Bar **/
+
+#bottom-bar { 
+   height: 15px; 
+   background-color: #303030; 
+   font-size: 80%;
+   padding: 10px;
+ }
+
+#bottom-bar a { 
+   color: #C7C7C7 ;
+    }
+
+#bottom-bar a:visited { 
+   color: #FCDB6E;
+    }
+
+
+
+/**
+ * =Errors
+ ***************************/
+.ror_error {
+  font-size: 10px;
+  color: red;
+}
+#comments .errorExplanation {
+    font-size: 11px;
+    line-height: 16px;
+    color: #bd0200;
+    padding: 10px;
+  border: 1px solid #bd0200;
+  margin: 5px 0;
+  background-color: #fffaf9;
+}
+#comments .errorExplanation h2 {
+  font-size: 14px;
+  margin-top: 0;
+  color: #bd0200;
+  font-weight: bold;
+}
+#comments .errorExplanation ul {
+  margin: 0;
+}
+
+/**
+ * =Warn Bad Browsers
+ ***************************/
+#warn_bad_browsers {
+  padding: 8px;
+  background-color: #990000;
+  width: 100%;
+  margin: 0;
+  font-size: 11px;
+  color: #fff;
+  border-bottom: 1px solid #000;
+}
+#warn_bad_browsers b {
+  font-weight: bold;
+}
+
+/** 
+ Footer settings from blog.squarespace.com
+****************************/
+
+/* #pageFooterWrapper { float: left; background: url(/storage/layout/footer-bg.png) repeat-y top left; font-size: 80%; } */
+
+/* #pageFooter { float: left; width: 540px; margin: 0 0 0 109px; padding: 40px 0 35px 0; } */
+
+#footerInnerWrapper { 
+  float: center; 
+  clear: both; 
+  width: 575px; 
+  text-align: left;
+}
+
+#footerInnerWrapper a:link { font-size: 100%; color: #555; }
+#footerInnerWrapper a:visited { font-size: 100%; color: #555; }
+#footerInnerWrapper a:hover { font-size: 100%; color: #aaa; }
+#footerInnerWrapper a:active { font-size: 100%; color: #555; }
+
+
+.footerLogo { 
+   width: 55px; 
+   float: left; 
+   margin: 30px 0 0 40px;
+ }
+
+.footerCol { 
+   font-size: 95%; 
+   width: 140px; 
+   float: left; 
+   padding: 0 15px 0 0; 
+}
+
+.footerCol ul { 
+   margin: 5px;
+   padding: 10px;
+}
+
+.footerCol ul ul { 
+   margin: 5px;
+   padding: 5px;
+}
+
+
+.footerCol li { 
+  list-style: none;
+  line-height: 200% ;
+  border-bottom: 1px dotted #808080;
+ }
+
+
+
+.footerCol h5 { 
+   font-weight: bold; 
+   font-size: 95%; 
+   margin-bottom: 3px; 
+   padding: 0 0 0 13px;
+ }
+
+/* USER BOX  */
+
+.userboxes {
+   margin-left: 1em; 
+   margin-bottom: 0.5em; 
+   width: 248px; 
+   border: 1px solid rgb(153, 179, 255); 
+   background-color: rgb(255, 255, 255); 
+   color: rgb(0, 0, 0); 
+   float: right;
+}
+
+.userbox-style {
+   text-align: center; 
+   font-size: 120%; 
+   font-weight: bold;
+}
+
+.userbox-div { 
+   float: left; 
+   border: 1px solid silver; 
+   margin: 1px;
+ }
+
+.userbox-table {
+   width: 238px; 
+   background: none repeat scroll 0% 0% rgb(138, 217, 98);
+}
+
+.userbox-td {
+   width: 45px; 
+   height: 20px; 
+   background: none repeat scroll 0% 0% rgb(108, 190, 66); 
+   text-align: center; 
+   font-size: 16pt; color: black;
+}
+
+.userbox-irc-table {
+   width: 238px; 
+   background: none repeat scroll 0% 0% red;
+}
+
+.userbox-irc-td {
+   width: 45px; 
+   height: 20px; 
+   background: none repeat scroll 0% 0% red; 
+   text-align: center; 
+   font-size: 12pt; color: black;
+}
+
+
