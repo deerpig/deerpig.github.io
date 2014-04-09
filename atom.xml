@@ -4,13 +4,49 @@
  <title>Chenla: weblog</title>
  <link href="http://chenla.la/atom.xml" rel="self"/>
  <link href="http://chenla.la/"/>
- <updated>2014-04-01T11:57:30+07:00</updated>
+ <updated>2014-04-09T11:24:24+07:00</updated>
  <id>http://chenla.la</id>
  <author>
    <name>Brad Collins</name>
    <email>brad@chenal.la</email>
  </author>
  
+ 
+ <entry>
+   <title>We Are Large We Contain Multitudes</title>
+   <link href="http://chenla.la/2014/04/09/We-Contain_Multitudes.html"/>
+   <updated>2014-04-09T00:00:00+07:00</updated>
+   <id>http://www.paperplanes.de/2014/04/09/We-Contain_Multitudes</id>
+   <content type="html">&lt;blockquote&gt;
+&lt;p&gt;
+Do I contradict myself? Very well, then I contradict myself, I am
+large, I contain multitudes.
+&lt;/p&gt;
+
+&lt;p&gt;
+&amp;#x2013; Walt Whitman
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;
+The full breadth of what we are working on is somewhat difficult to
+grok at times.  This organizational chart that shows all the different
+pieces of how Chenla and our commerical sister company Repozit I/O fit
+together should help.  Some of the items in the chart haven't been
+publically released yet.  All will be revealed in good time.
+&lt;/p&gt;
+
+&lt;p&gt;
+The chart is available as a &lt;a href=&quot;./files/chenla-org-chart.pdf&quot;&gt;pdf&lt;/a&gt; and a somewhat large &lt;a href=&quot;./images/chenla-org-chart-poster-sm.png&quot;&gt;png&lt;/a&gt;.
+&lt;/p&gt;
+
+
+&lt;div class=&quot;figure&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;./images/chenla-org-chart-poster-sm.png&quot; alt=&quot;chenla-org-chart-poster-sm.png&quot; /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>What a Difference a Month Makes</title>
@@ -564,35 +600,6 @@ universities to get their reaction and feedback to the idea.  The
 response has been extremely positive.  So we are now putting together
 a formal business plan and detailed budget and will be establishing
 ourselves as what I call an un-NGO.
-&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>FOSS Media Software Presentation</title>
-   <link href="http://chenla.la/2013/06/13/New-Presentation.html"/>
-   <updated>2013-06-13T00:00:00+07:00</updated>
-   <id>http://www.paperplanes.de/2013/06/13/New-Presentation</id>
-   <content type="html">&lt;p&gt;
-Just uploaded a &lt;a href=&quot;http://chenla.la/slides/oss-media.html&quot;&gt;presentation&lt;/a&gt; that I have been giving at several
-universities in Phnom Penh over the past few months.  The next
-presentation will be at the &lt;i&gt;National University of Management&lt;/i&gt; in
-Phnom Penh on friday 14 June.
-&lt;/p&gt;
-
-&lt;p&gt;
-There is almost no awareness in SE Asia of any FOSS software.  In fact
-if it's not from Microsoft it is largely invisable out here.  We hope
-to change that.  The results have been gratifying.  When I start
-showing students great media tools like Blender, Gimp, Inkscape and
-Audacity they are blown away.
-&lt;/p&gt;
-
-&lt;p&gt;
-We've now dumped Powerpoint and Keynote to use HTML S5, which is a
-clean HTML &amp;amp; CSS presentation format.  The presentation was made using
-Emacs Org-Mode and then exported to S5.  See the notes on the
-&lt;a href=&quot;http://chenla.la/slides.html&quot;&gt;presentation page&lt;/a&gt; about how to navigate the presentation.
 &lt;/p&gt;
 </content>
  </entry>
