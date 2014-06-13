@@ -4,7 +4,7 @@
  <title>Chenla: weblog</title>
  <link href="http://chenla.la/atom.xml" rel="self"/>
  <link href="http://chenla.la/"/>
- <updated>2014-06-13T15:46:25+07:00</updated>
+ <updated>2014-06-13T15:52:08+07:00</updated>
  <id>http://chenla.la</id>
  <author>
    <name>Brad Collins</name>
@@ -35,7 +35,7 @@ Hope to see you there.
 
 
 &lt;div class=&quot;figure&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;./images/naga2.jpg&quot; alt=&quot;naga2.jpg&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;./images/naga2.jpg&quot; alt=&quot;naga2.jpg&quot; width=&quot;25%&quot; /&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 </content>
